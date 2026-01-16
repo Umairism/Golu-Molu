@@ -1,0 +1,23 @@
+# Netlify Configuration
+
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Optional: Add password protection
+# Uncomment and configure via Netlify dashboard:
+# Settings > Site protection > Password protection
+
+# Optional: Custom headers for privacy
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "no-referrer"
