@@ -7,7 +7,7 @@ function Landing({ onEnter }: LandingProps) {
     <section className="min-h-screen flex items-center justify-center px-4 bg-gradient-to-b from-gray-900 to-gray-800">
       <div className="text-center fade-in">
         <p className="text-2xl md:text-3xl text-gray-200 mb-12 max-w-2xl mx-auto leading-relaxed">
-          A collection of moments that distance couldn't diminish.
+          Only for my Golu, Sweet and Sugar like girl, My Sweetie ButterScotch❤️💕💕.
         </p>
         <button
           onClick={onEnter}

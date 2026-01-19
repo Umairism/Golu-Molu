@@ -6,6 +6,7 @@ import VideoMoments from './components/VideoMoments';
 import PhotoStory from './components/PhotoStory';
 import Letters from './components/Letters';
 import Closing from './components/Closing';
+import ProgressIndicator from './components/ProgressIndicator';
 
 // Set your password here
 const CORRECT_PASSWORD = '2822';
@@ -83,8 +84,11 @@ function App() {
   }
 
   // Main content (after authentication)
+  const sections = ['timeline', 'messages', 'videos', 'photos', 'letters', 'closing'];
+
   return (
     <div className="min-h-screen bg-white">
+      <ProgressIndicator sections={sections} />
       <Timeline />
       <Messages />
       <VideoMoments />

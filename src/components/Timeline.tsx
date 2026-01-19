@@ -2,9 +2,10 @@ import { timelineEvents } from '../data/timeline';
 
 function Timeline() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 py-16 bg-white">
+    <section id="timeline" className="min-h-screen flex items-center justify-center px-4 py-16 bg-white">
       <div className="max-w-3xl w-full">
-        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-16 text-center">Our Journey</h2>
+        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-16 text-center">Hamara Safar</h2>
+        <p className="text-lg text-gray-600 text-center mb-8 -mt-8">Every moment with you, a beautiful memory 💕</p>
         
         <div className="space-y-12">
           {timelineEvents.map((event, index) => (

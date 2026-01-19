@@ -2,9 +2,10 @@ import { messages } from '../data/messages';
 
 function Messages() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 py-16 bg-gray-50">
+    <section id="messages" className="min-h-screen flex items-center justify-center px-4 py-16 bg-gray-50">
       <div className="max-w-3xl w-full">
-        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-16 text-center">Words That Mattered</h2>
+        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-16 text-center">Jo Baatein Dil Ko Chu Gayi</h2>
+        <p className="text-lg text-gray-600 text-center mb-8 -mt-8">The words that touched our hearts 💝</p>
         
         <div className="space-y-6">
           {messages.map((message) => (

@@ -40,7 +40,7 @@ function Letters() {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 py-16 bg-white">
+    <section id="letters" className="min-h-screen flex items-center justify-center px-4 py-16 bg-white">
       <div className="max-w-3xl w-full">
         <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-12 text-center">Letters</h2>
         

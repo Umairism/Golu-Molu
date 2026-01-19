@@ -10,29 +10,25 @@ export const letters: Letter[] = [
     id: 'from-me',
     title: 'From Me',
     author: 'me',
-    content: `Dear Golu,
+    content: `Mere pyare Golu,
 
-I've tried to write this a hundred times. Every word feels too small to hold what I feel.
+Kabhi kabhi lagta hai k alfaaz bhi kam par jate hain jo dil mein hai woh kehne ke liye.
 
-This distance has taught me things I never wanted to learn how to miss someone so deeply it aches, how to find joy in a voice across miles, how to believe in something I can't touch.
+Is doori ne mujhe sikhaya hai k kisi ko kitni shiddat se yaad kiya ja sakta hai. Tumhari awaaz mein kitna sukoon milta hai, chahe tum kitne bhi door ho. Maine seekha hai k kuch cheezein bina chue bhi mehsoos ki ja sakti hain.
 
-But it's also shown me the truth: that you're worth every mile, every wait, every moment of longing.
+Tum mere har intezar ki wajah ho. Har mile ka, har second ka.
 
-You've become my constant. My hope. My reason to believe that some things are meant to be, even when they're hard.
+Tum mere sukoon ban gaye ho. Meri wo wajah jo mujhe yaqeen dilati hai k kuch cheezein mushkil hone k bawajood bhi sahi hoti hain. Kuch rishte mushkil se guzar k aur bhi mazboot ho jate hain.
 
-Thank you for choosing me. For staying. For believing in us when it felt impossible.
+Shukriya k tumne mujhe chuna. Shukriya k tum rukay.
 
-I love you. Not just for who you are, but for who we've become together.
-
-Always,
+Tumhari hamesha ke liye,
 Molu`
   },
   {
     id: 'from-you',
     title: 'From You',
     author: 'you',
-    content: `
-
-This space is ready whenever you want to add their words.`
+    content: `This space waits for your words.`
   }
 ];
